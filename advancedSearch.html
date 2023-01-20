@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Search</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav d-flex ml-auto">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Google Search</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--  -->
+    <section
+      class="d-flex justify-content-center align-items-center"
+      width="100"
+      style="height: 90vh"
+    >
+      <div class="d-flex justify-content-center align-items-center flex-column">
+        <div class="image">
+          <img src="/logo-light.png" alt="logo" />
+        </div>
+        <form
+          action="https://www.google.com/search"
+          class="d-flex justify-content-center align-items-center flex-column"
+        >
+          <input type="text" name="q" />
+          <div class="buttons">
+            <input type="submit" value="Google Search" class="" />
+            <input type="submit" value="I'm Feeling Lucky" class="" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <input type="submit" value="Google Search" class="btn btn-primary" />
+    </form> -->
+  </body>
+</html>
