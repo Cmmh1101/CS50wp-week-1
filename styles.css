@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-* {
+body {
   color: #bdc1c6;
   background-color: #202124;
 }
@@ -76,4 +76,25 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   border: 1px solid #5f6368;
+}
+
+/* advanced search */
+
+.heading {
+  width: 100%;
+  padding: 25px 35px;
+  /* border: solid #e8ecf0 !important; */
+  z-index: 50;
+}
+
+.heading label {
+  color: #f28b82;
+  font-size: 20px;
+  margin: 0 20px 0;
+  text-align: end;
+}
+
+hr {
+  margin-top: 0;
+  border-top: 1px solid #3c4043 !important;
 }
