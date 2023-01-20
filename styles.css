@@ -9,6 +9,11 @@
   background-color: #202124;
 }
 
+.logo img {
+  width: 74px;
+  height: 24px;
+}
+
 ul {
   list-style: none;
   height: 100%;
