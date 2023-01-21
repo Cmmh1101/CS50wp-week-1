@@ -58,6 +58,7 @@ input[type="text"] {
   box-shadow: none;
   border-radius: 24px;
   margin: 0 auto;
+  padding: 1px 8px;
 }
 input[type="text"]:hover {
   background-color: #303134;
@@ -135,4 +136,29 @@ hr {
   color: #bdc1c6;
   border-radius: 2px;
   margin-left: 0;
+  background-color: transparent !important;
+}
+.form-item .text-box:hover {
+  border: 1px solid #5f6368;
+  background-color: transparent !important;
+}
+.form-item .text-box:focus {
+  border: 1px solid #5f6368;
+  background-color: transparent !important;
+}
+
+.submit {
+  width: 572px;
+}
+
+.submit-btn {
+  background-color: #8ab4f8 !important;
+  color: #202124 !important;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0 !important;
+  float: right;
+}
+.submit-btn:hover {
+  background-color: #a1c1f6 !important;
 }

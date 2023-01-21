@@ -30,7 +30,12 @@
         <label>Advanced Search</label>
       </div>
       <hr />
-      <form action="/search" name="f" method="GET" class="form-section">
+      <form
+        action="https://www.google.com/search"
+        name="f"
+        method="GET"
+        class="form-section"
+      >
         <div class="form-items-wraper">
           <div class="form-subtitle">
             <span class="subtitle">Find pages with...</span>
@@ -61,6 +66,17 @@
           <div class="form-item">
             <label for="none-words">none of these words:</label>
             <input class="text-box" type="text" id="none-words" name="as_eq" />
+          </div>
+          <div class="form-item">
+            <label></label>
+            <div class="submit">
+              <input
+                class="submit-btn"
+                type="submit"
+                value="Advanced Search"
+                name="as_eq"
+              />
+            </div>
           </div>
         </div>
       </form>
