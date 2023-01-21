@@ -102,11 +102,37 @@ hr {
   padding: 25px 35px;
 }
 
+.form-subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
 .form-items-wraper {
   margin: 0 20px;
   color: #e8eaed;
+  margin-top: 20px;
 }
 
 .form-items-wraper label {
   color: #bdc1c6;
+}
+
+.form-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.form-item label {
+  width: 230px;
+  color: #bdc1c6;
+  margin-bottom: 0;
+}
+.form-item .text-box {
+  width: 572px;
+  height: 29px;
+  color: #bdc1c6;
+  border-radius: 2px;
+  margin-left: 0;
 }
