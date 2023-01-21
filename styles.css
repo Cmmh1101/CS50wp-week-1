@@ -83,8 +83,6 @@ input[type="submit"]:hover {
 .heading {
   width: 100%;
   padding: 25px 35px;
-  /* border: solid #e8ecf0 !important; */
-  z-index: 50;
 }
 
 .heading label {
@@ -97,4 +95,18 @@ input[type="submit"]:hover {
 hr {
   margin-top: 0;
   border-top: 1px solid #3c4043 !important;
+}
+
+.form-section {
+  width: 100%;
+  padding: 25px 35px;
+}
+
+.form-items-wraper {
+  margin: 0 20px;
+  color: #e8eaed;
+}
+
+.form-items-wraper label {
+  color: #bdc1c6;
 }
