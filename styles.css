@@ -44,6 +44,18 @@ form {
   padding: 20px;
 }
 
+.main-search-wrapper {
+  position: relative;
+}
+
+.search-icon svg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 11px;
+  left: 15px;
+}
+
 .buttons {
   padding: 18px 0 0;
 }
@@ -69,6 +81,10 @@ input[type="text"]:focus {
   background-color: #303134;
   border: none;
   outline: none;
+}
+
+.main-search {
+  padding: 0 55px !important;
 }
 
 input[type="submit"] {
