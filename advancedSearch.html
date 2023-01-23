@@ -37,41 +37,77 @@
         class="form-section"
       >
         <div class="form-items-wraper">
-          <div class="form-subtitle">
-            <span class="subtitle">Find pages with...</span>
+          <div class="form-item form-subtitle-wrapper">
+            <div class="form-subtitle">
+              <span class="subtitle">Find pages with...</span>
+            </div>
+            <div class="input-area">
+              <div class="text-box empty-box"></div>
+              <div class="description-title">To do this in the search box</div>
+            </div>
           </div>
+
           <div class="form-item">
             <label for="all-words">all these words:</label>
-            <input
-              type="text"
-              autofocus="autofocus"
-              id="all-words"
-              name="as_q"
-              class="text-box"
-            />
+            <div class="input-area">
+              <input
+                type="text"
+                autofocus="autofocus"
+                id="all-words"
+                name="as_q"
+                class="text-box"
+              />
+              <div class="description">
+                Type the important words: <span> tricolor rat terrier</span>
+              </div>
+            </div>
           </div>
           <div class="form-item">
             <label for="exact-words">this exact word or phrase:</label>
-            <input
-              class="text-box"
-              type="text"
-              id="exact-words"
-              name="as_epq"
-            />
+            <div class="input-area">
+              <input
+                class="text-box"
+                type="text"
+                id="exact-words"
+                name="as_epq"
+              />
+              <div class="description">
+                Put exact words in quotes:
+                <span> "rat terrier"</span>
+              </div>
+            </div>
           </div>
           <div class="form-item">
             <label for="any-words">any of these words:</label>
-            <input class="text-box" type="text" id="any-words" name="as_oq" />
+            <div class="input-area">
+              <input class="text-box" type="text" id="any-words" name="as_oq" />
+              <div class="description">
+                Type OR between all the words you want:
+                <span> miniature OR standard</span>
+              </div>
+            </div>
           </div>
           <div class="form-item">
             <label for="none-words">none of these words:</label>
-            <input class="text-box" type="text" id="none-words" name="as_eq" />
+            <div class="input-area">
+              <input
+                class="text-box"
+                type="text"
+                id="none-words"
+                name="as_eq"
+              />
+              <div class="description">
+                Put a minus sign just before words you don't want:
+                <span> -rodent, -"Jack Russell"</span>
+              </div>
+            </div>
           </div>
           <div class="form-item">
             <label></label>
             <div class="submit">
               <input class="submit-btn" type="submit" value="Advanced Search" />
             </div>
+            <div class="description"></div>
           </div>
         </div>
       </form>

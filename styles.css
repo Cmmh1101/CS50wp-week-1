@@ -125,9 +125,18 @@ hr {
   padding: 25px 35px;
 }
 
-.form-subtitle {
-  font-size: 1rem;
+.form-subtitle-wrapper {
+  display: flex;
+  align-items: center;
   margin-bottom: 20px;
+}
+
+.form-subtitle {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  /* margin-bottom: 20px; */
+  width: 230px;
 }
 
 .form-items-wraper {
@@ -157,6 +166,7 @@ hr {
   height: 29px;
   color: #bdc1c6;
   border-radius: 2px;
+  padding: 1px 8px !important;
   margin-left: 0;
   background-color: transparent !important;
 }
@@ -183,4 +193,61 @@ hr {
 }
 .submit-btn:hover {
   background-color: #a1c1f6 !important;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.description {
+  width: 420px;
+  color: #969ba1;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+  margin: 0 0 8px 11px;
+}
+
+.description span {
+  color: #dadce0;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}
+
+.description-title {
+  width: 400px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 1341px) {
+  .description-title,
+  .description {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .form-item .text-box,
+  .submit {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .form-item .text-box,
+  .submit {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .form-item .text-box,
+  .submit {
+    width: 250px;
+  }
 }
