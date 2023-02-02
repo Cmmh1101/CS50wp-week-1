@@ -1,6 +1,10 @@
 # CS50wp-week-1 HTML-CSS
 
-## propt 
+## Live demo: 
+
+https://mygooglesearchclone.netlify.app/
+
+## prompt 
 
 Your website must meet the following requirements:
 
